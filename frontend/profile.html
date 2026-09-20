@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile - Horizon Social</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Horizon Social
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <button onclick="logout()">Logout</button>
+        </div>
+
+    </nav>
+
+
+    <main class="container">
+
+        <section class="create-post">
+
+            <h2>My Profile</h2>
+
+            <br>
+
+            <h3 id="profileUsername">
+                Loading...
+            </h3>
+
+            <p id="profileEmail">
+                Loading...
+            </p>
+
+            <br>
+
+            <p>
+                Followers:
+                <strong id="followersCount">0</strong>
+            </p>
+
+            <p>
+                Following:
+                <strong id="followingCount">0</strong>
+            </p>
+
+        </section>
+
+
+        <section class="feed">
+
+            <h2>Discover Users</h2>
+
+            <div id="usersContainer">
+                Loading users...
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="profile.js"></script>
+
+</body>
+
+</html>

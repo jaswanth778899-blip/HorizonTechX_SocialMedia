@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Horizon Social</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Horizon Social</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <!-- CREATE POST -->
+        <section class="create-post">
+
+            <h2>Create a Post</h2>
+
+            <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+
+            <button onclick="createPost()">
+                Post
+            </button>
+
+        </section>
+
+
+        <!-- FEED -->
+        <section class="feed">
+
+            <h2>Latest Posts</h2>
+
+            <div id="postsContainer">
+                <p>Loading posts...</p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register - Horizon Social</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Horizon Social</div>
+    </nav>
+
+    <main class="container">
+
+        <section class="create-post">
+
+            <h2>Create Account</h2>
+
+            <br>
+
+            <input type="text" id="username" placeholder="Choose a username" style="width:100%; padding:12px; margin-bottom:12px;">
+
+            <input type="email" id="email" placeholder="Enter your email" style="width:100%; padding:12px; margin-bottom:12px;">
+
+            <input type="password" id="password" placeholder="Create a password" style="width:100%; padding:12px; margin-bottom:12px;">
+
+            <button onclick="registerUser()">
+                Register
+            </button>
+
+            <p style="margin-top:15px;">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="auth.js"></script>
+
+</body>
+
+</html>
